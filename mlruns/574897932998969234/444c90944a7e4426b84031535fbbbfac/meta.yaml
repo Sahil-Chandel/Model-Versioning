@@ -1,5 +1,5 @@
 artifact_uri: file:///C:/Sahil-Chandel/Projects/Model-Versioning/mlruns/574897932998969234/444c90944a7e4426b84031535fbbbfac/artifacts
-end_time: null
+end_time: 1755599580754
 entry_point_name: ''
 experiment_id: '574897932998969234'
 lifecycle_stage: active
@@ -9,6 +9,6 @@ source_name: ''
 source_type: 4
 source_version: ''
 start_time: 1755597656616
-status: 1
+status: 3
 tags: []
 user_id: T0089

@@ -50,7 +50,7 @@ def train_and_log():
         version_dir = os.path.join(SAVE_DIR, run.info.run_id)
         os.makedirs(version_dir, exist_ok=True)
 
-        best_model_path = results.save_dir + "/weights/best.pt"
+        best_model_path = str(results.save_dir) + "/weights/best.pt"
         final_path = os.path.join(version_dir, "best.pt")
         shutil.copy(best_model_path, final_path)
 
