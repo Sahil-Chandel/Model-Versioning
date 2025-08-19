@@ -1,0 +1,13 @@
+cd project
+
+# Initialize git
+git init
+git add .
+git commit -m "Initial commit"
+
+# Initialize DVC
+dvc init
+dvc add data
+dvc add models
+git add data.dvc models.dvc .gitignore dvc.yaml
+git commit -m "Track dataset and model directory with DVC"

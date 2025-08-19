@@ -1,0 +1,22 @@
+# Core YOLO
+ultralytics>=8.2.0
+
+# Experiment tracking
+mlflow>=2.12.1
+
+# Version control
+dvc>=3.50.0
+
+# YAML config handling
+pyyaml>=6.0
+
+# JSON handling (already in stdlib, but safe for some environments)
+simplejson>=3.19.2
+
+# Git utilities (used by subprocess)
+GitPython>=3.1.43
+
+# Optional: if using DVC remotes (e.g. S3, GDrive, MinIO)
+dvc-s3>=3.0.0
+dvc-gdrive>=3.0.0
+dvc-ssh>=3.0.0

@@ -1,0 +1,21 @@
+Make it executable:   firstly Run this 
+
+chmod +x run_pipeline.sh
+
+
+Run full pipeline: the run full pipeline using run_pipeline.sh using  below command
+
+./run_pipeline.sh
+
+
+---------------------Interactive Mode----------------------------
+./run_pipeline.sh
+
+-----------→ Will ask you for epochs, imgsz, conf, source.
+
+------------------Non-interactive Mode---------------------------
+./run_pipeline.sh --epochs 20 --imgsz 640 --conf 0.3 --source data/custom/images
+
+-----------→ Runs end-to-end with given values (no prompts).
+
+

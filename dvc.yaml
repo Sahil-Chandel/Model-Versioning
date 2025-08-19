@@ -1,0 +1,19 @@
+stages:
+  train:
+    cmd: python train.py
+    deps:
+      - train.py
+      - dataset\encroachment_onm_14August\data.yaml
+      - dataset\encroachment_onm_14August
+      - params.yaml
+    outs:
+      - models
+
+  predict:
+    cmd: python predict.py
+    deps:
+      - predict.py
+      - weights\August\encroachment_onm_14August_Weights\weights\encroachment_onm_14August_Weights.pt 
+      - params.yaml
+    outs:
+      - Predict
