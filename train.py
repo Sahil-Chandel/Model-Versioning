@@ -45,7 +45,7 @@ def train_and_log():
         mlflow.log_params(params["train"])
 
         model = YOLO(MODEL_PATH)
-        results = model.train(data=DATA_YAML, epochs=EPOCHS, imgsz=IMGSZ)
+        results = model.train(data=DATA_YAML, epochs=EPOCHS, imgsz=IMGSZ, workers=0,batch=2 )
 
         version_dir = os.path.join(SAVE_DIR, run.info.run_id)
         os.makedirs(version_dir, exist_ok=True)

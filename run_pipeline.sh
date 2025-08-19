@@ -51,13 +51,13 @@ fi
 echo "⚙️ Updating params.yaml..."
 cat > params.yaml <<EOL
 train:
-  model_path: "yolov8n.pt"
-  data_yaml: "data.yaml"
+  model_path: "weights/August/encroachment_onm_14August_Weights/weights/encroachment_onm_14August_Weights.pt"
+  data_yaml: "dataset/encroachment_onm_14August/data.yaml"
   epochs: ${EPOCHS}
   imgsz: ${IMGSZ}
 
 predict:
-  model_path: "models/latest/best.pt"
+  model_path: "weights/August/encroachment_onm_14August_Weights/weights/encroachment_onm_14August_Weights.pt"
   conf_threshold: ${CONF}
   imgsz: ${IMGSZ}
   source: "${SOURCE}"

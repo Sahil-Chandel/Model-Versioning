@@ -19,3 +19,4 @@ Run full pipeline: the run full pipeline using run_pipeline.sh using  below comm
 -----------→ Runs end-to-end with given values (no prompts).
 
 
+./run_pipeline.sh --epochs 5 --imgsz 640 --conf 0.1 --source C:\Sahil-Chandel\Projects\Model-Versioning\dataset\encroachment_onm_14August\valid\images

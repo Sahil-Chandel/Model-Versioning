@@ -1,13 +1,11 @@
 train:
-  model_path: "weights/August/encroachment_onm_14August_Weights/weights/encroachment_onm_14August_Weights.pt"     # base pretrained model
-  data_yaml: "dataset/encroachment_onm_14August/data.yaml"       # dataset config
-  epochs: 10
+  model_path: "weights/August/encroachment_onm_14August_Weights/weights/encroachment_onm_14August_Weights.pt"
+  data_yaml: "dataset/encroachment_onm_14August/data.yaml"
+  epochs: 5
   imgsz: 640
 
 predict:
-  model_path: "models/latest/best.pt"  # trained model to use
-  conf_threshold: 0.25
+  model_path: "weights/August/encroachment_onm_14August_Weights/weights/encroachment_onm_14August_Weights.pt"
+  conf_threshold: 0.1
   imgsz: 640
-  source: "data/test/images"
-
-
+  source: "C:Sahil-ChandelProjectsModel-Versioningdatasetencroachment_onm_14Augustvalidimages"

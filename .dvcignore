@@ -5,3 +5,4 @@
 model_ver_env/
 dataset/
 weights/
+.dvc/

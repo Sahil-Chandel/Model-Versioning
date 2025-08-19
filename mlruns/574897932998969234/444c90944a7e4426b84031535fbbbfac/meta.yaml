@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Sahil-Chandel/Projects/Model-Versioning/mlruns/574897932998969234/444c90944a7e4426b84031535fbbbfac/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '574897932998969234'
+lifecycle_stage: active
+run_id: 444c90944a7e4426b84031535fbbbfac
+run_name: train_20250819_153056
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755597656616
+status: 1
+tags: []
+user_id: T0089
