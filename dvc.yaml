@@ -3,8 +3,8 @@ stages:
     cmd: python train.py
     deps:
       - train.py
-      - dataset\encroachment_onm_14August\data.yaml
-      - dataset\encroachment_onm_14August
+      - dataset/encroachment_onm_14August/data.yaml  # data yaml file
+      - dataset/encroachment_onm_14August   #Data
       - params.yaml
     outs:
       - models
@@ -13,7 +13,9 @@ stages:
     cmd: python predict.py
     deps:
       - predict.py
-      - weights\August\encroachment_onm_14August_Weights\weights\encroachment_onm_14August_Weights.pt 
+      - weights/August/encroachment_onm_14August_Weights
       - params.yaml
     outs:
       - Predict
+
+

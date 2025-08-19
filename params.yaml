@@ -1,6 +1,6 @@
 train:
-  model_path: "weights\August\encroachment_onm_14August_Weights\weights\encroachment_onm_14August_Weights.pt"     # base pretrained model
-  data_yaml: "dataset\encroachment_onm_14August\data.yaml"       # dataset config
+  model_path: "weights/August/encroachment_onm_14August_Weights/weights/encroachment_onm_14August_Weights.pt"     # base pretrained model
+  data_yaml: "dataset/encroachment_onm_14August/data.yaml"       # dataset config
   epochs: 10
   imgsz: 640
 
